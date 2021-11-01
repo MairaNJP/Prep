@@ -1,0 +1,10 @@
+* Variables: 
+En javascript se distinguen 5 tipos; de tipo texto (string), número, booleanas , objetos y funciones. Los textos, números y booleanos son intuitivos.
+	* Strings: Datos textuales que van entre comillas, por ej, los nuemeros se leen como tal y no por su valor.
+	* Funciones: conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida.
+  * Argumentos de funciones: Las variables que necesitan las funciones se llaman argumentos. Antes de que pueda utilizarlos, la función debe indicar cuántos argumentos necesita y cuál es el nombre de cada argumento. Además, al invocar la función, se deben incluir los valores que se le van a pasar a la función.
+  * `return` : Return también hace que finalice la ejecución de una función. En el siguiente ejemplo, el primer return detiene la ejecución de la función y hace que el valor de la misma sea true. El return que devuelve false, nunca se ejecuta. Por tanto, Return se suele usar para interrumpir la instrucción de una función.
+	* Declaraciones`if` : IF es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión. Funciona de la siguiente manera, primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo
+	* Valores booleanos (`true`, `false`) su respuesta es binaria, es una o la otra.
+  * `for`:El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute.
+  * `&&`, `||`, `!`
