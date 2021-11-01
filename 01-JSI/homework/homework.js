@@ -95,7 +95,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 if (numero > 0) {
-  return 'Es postivo';
+  return 'Es positivo';
 } else if (numero < 0){
   return 'Es negativo';
 } else {
@@ -129,9 +129,9 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Tu código:
-  if(letra.length > 1)    return 'Dato incorrecto';
-
-  if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+  if(letra.length > 1) {
+    return 'Dato incorrecto';
+  } if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
     return 'Es vocal';
   }
 }
@@ -142,9 +142,9 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
 if (x > y){
-  return true;
+  return x;
 }else {
-  return false;
+  return y;
 }
 }
 
@@ -214,12 +214,12 @@ function esPrimo(numero) {
 if (numero === 0 || numero === 1){
   return false
 } 
+
 for (let i = 2; i < numero; i++) {
  if (numero % i === 0) {
    return false;
-    }
-  return true
-}
+  } 
+} return true;
 }
 
 function doWhile(numero) {
@@ -227,10 +227,10 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
   // Tu código:
-  var i= 0;
-while (i < 8) {
-  numero = numero + 5;
-  i++;
+  var times = 0;
+  while(times < 8) {
+    numero = numero + 5;
+    times++;
   }
   return numero;
 }
