@@ -8,3 +8,10 @@ En javascript se distinguen 5 tipos; de tipo texto (string), número, booleanas 
 	* Valores booleanos (`true`, `false`) su respuesta es binaria, es una o la otra.
   * `for`:El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute.
   * `&&`, `||`, `!`
+  Operadores lógicos binarios
+Los operadores lógicos se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelven un valor booleano.
+
+&& 
+AND lógico.
+|| 
+OR lógico.
