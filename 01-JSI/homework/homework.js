@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta correcta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = Maira;
+const nuevaString = 'Maira';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 31;
@@ -13,7 +13,7 @@ const nuevoBool = true;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -40,6 +40,7 @@ function sonIguales(x, y) {
   } else { 
     return false;
   }
+}
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -51,6 +52,7 @@ function tienenMismaLongitud(str1, str2) {
     } else {
     return false;
     }
+  }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -61,6 +63,7 @@ function menosQueNoventa(num) {
     } else {
     return false;
   }
+}
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
@@ -70,6 +73,7 @@ function esImpar(num) {
     return true;
     } else {
     return false;
+ }
 }
 
 function elevarAlCuadrado(num) {
@@ -96,6 +100,7 @@ if (numero > 0) {
   return 'Es negativo';
 } else {
   return false;
+}
 }
 
 function combinarNombres(nombre, apellido) {
@@ -124,7 +129,7 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Tu código:
-  if(letra.length > 1) return 'Dato incorrecto';
+  if(letra.length > 1)    return 'Dato incorrecto';
 
   if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
     return 'Es vocal';
@@ -197,6 +202,7 @@ function estaEnRango(numero) {
   } else {
   return false;
  }
+}
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
@@ -205,7 +211,15 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   // Tu código:
-
+if (numero === 0 || numero === 1){
+  return false
+} 
+for (let i = 2; i < numero; i++) {
+ if (numero % i === 0) {
+   return false;
+    }
+  return true
+}
 }
 
 function doWhile(numero) {
@@ -213,7 +227,12 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
   // Tu código:
-
+  var i= 0;
+while (i < 8) {
+  numero = numero + 5;
+  i++;
+  }
+  return numero;
 }
 
 
